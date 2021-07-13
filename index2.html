@@ -160,92 +160,111 @@
         data-caption="here is an image caption"
       />
 
-      <!-- container ends -->
-    </div>
+      <!-- slider -->
+      <h1>SLIDER</h1>
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/1" />
+            <div class="caption center-align">
+              <h3>This our tagline</h3>
+              <h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
+            </div>
+          </li>
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/2" />
+            <div class="caption left-align">
+              <h3>This our tagline</h3>
+              <h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
+            </div>
+          </li>
+          <li>
+            <img src="http://lorempixel.com/580/250/nature/3" />
+            <div class="caption right-align">
+              <h3>This our tagline</h3>
+              <h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
 
-    <!-- slider -->
-    <h1>SLIDER</h1>
-    <div class="slider">
-      <ul class="slides">
+      <!-- modals -->
+      <h1>MODAL</h1>
+
+      <!-- modal triggers -->
+      <a href="#modal1" class="btn waves-effect">Modal 1</a>
+      <a href="#modal2" class="btn waves-effect red">Modal 2</a>
+
+      <!-- modal structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="" class="modal-action modal-close waves-effect waves-green"
+            >Button</a
+          >
+        </div>
+      </div>
+
+      <div id="modal2" class="modal">
+        <div class="modal-content">
+          <h4>Modal 2 Header</h4>
+          <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="" class="modal-action modal-close waves-effect waves-green"
+            >Button</a
+          >
+        </div>
+      </div>
+
+      <!-- sidenavs -->
+      <h1>SIDE NAV</h1>
+      <ul id="slide-out" class="side-nav">
         <li>
-          <img src="http://lorempixel.com/580/250/nature/1" />
-          <div class="caption center-align">
-            <h3>This our tagline</h3>
-            <h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
-          </div>
+          <a href="#"><i class="material-icons">cloud</i>Link 1</a>
         </li>
         <li>
-          <img src="http://lorempixel.com/580/250/nature/2" />
-          <div class="caption left-align">
-            <h3>This our tagline</h3>
-            <h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
-          </div>
+          <a href="#">Link 2</a>
         </li>
         <li>
-          <img src="http://lorempixel.com/580/250/nature/3" />
-          <div class="caption right-align">
-            <h3>This our tagline</h3>
-            <h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
-          </div>
+          <div class="divider"></div>
+        </li>
+        <li>
+          <a href="#" class="subheader">Subheader</a>
+        </li>
+        <li>
+          <a href="#" class="waves-effect">Link 3</a>
         </li>
       </ul>
+
+      <a href="" data-activates="slide-out" class="button-collapse"
+        ><i class="material-icons">menu</i></a
+      >
+
+      <!-- tabs -->
+      <h1>TABS</h1>
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><a href="#text1">Test 1</a></li>
+            <li class="tab col s3"><a href="#text2">Test 2</a></li>
+            <li class="tab col s3">
+              <a href="#text3" class="active">Test 3</a>
+            </li>
+            <li class="tab col s3 disabled"><a href="#text4">Test 4</a></li>
+          </ul>
+        </div>
+        <div id="text1" class="col s12">Test 1</div>
+        <div id="text2" class="col s12">Test 2</div>
+        <div id="text3" class="col s12">Test 3</div>
+        <div id="text4" class="col s12">Test 4</div>
+      </div>
+
+      <!-- container ends -->
     </div>
-
-    <!-- modals -->
-    <h1>MODAL</h1>
-
-    <!-- modal triggers -->
-    <a href="#modal1" class="btn waves-effect">Modal 1</a>
-    <a href="#modal2" class="btn waves-effect red">Modal 2</a>
-
-    <!-- modal structure -->
-    <div id="modal1" class="modal">
-      <div class="modal-content">
-        <h4>Modal Header</h4>
-        <p>A bunch of text</p>
-      </div>
-      <div class="modal-footer">
-        <a href="" class="modal-action modal-close waves-effect waves-green"
-          >Button</a
-        >
-      </div>
-    </div>
-
-    <div id="modal2" class="modal">
-      <div class="modal-content">
-        <h4>Modal 2 Header</h4>
-        <p>A bunch of text</p>
-      </div>
-      <div class="modal-footer">
-        <a href="" class="modal-action modal-close waves-effect waves-green"
-          >Button</a
-        >
-      </div>
-    </div>
-
-    <!-- sidenavs -->
-    <h1>SIDE NAV</h1>
-    <ul id="slide-out" class="side-nav">
-      <li>
-        <a href="#"><i class="material-icons">cloud</i>Link 1</a>
-      </li>
-      <li>
-        <a href="#">Link 2</a>
-      </li>
-      <li>
-        <div class="divider"></div>
-      </li>
-      <li>
-        <a href="#" class="subheader">Subheader</a>
-      </li>
-      <li>
-        <a href="#" class="waves-effect">Link 3</a>
-      </li>
-    </ul>
-
-    <a href="" data-activates="slide-out" class="button-collapse"
-      ><i class="material-icons">menu</i></a
-    >
 
     <!-- gives us space at the bottom  -->
     <div style="height: 500px"></div>
