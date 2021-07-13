@@ -263,6 +263,42 @@
         <div id="text4" class="col s12">Test 4</div>
       </div>
 
+      <!-- tap target -->
+      <h1>TAP TARGETS</h1>
+      <div class="fixed-action-btn" style="bottom: 40px; right: 24px">
+        <a
+          id="menu"
+          onclick="$('.tap-target').tapTarget('open')"
+          class="waves-effect waves-light btn btn-floating btn-large cyan"
+          ><i class="material-icons">menu</i></a
+        >
+      </div>
+
+      <a
+        class="waves-effect waves-light btn cyan"
+        onclick="$('.tap-target').tapTarget('open')"
+        >Open Tap Target</a
+      >
+
+      <a
+        class="waves-effect waves-light btn cyan"
+        onclick="$('.tap-target').tapTarget('close')"
+        >Close Tap Target</a
+      >
+
+      <!-- tap target content -->
+      <div class="tap-target cyan" data-activates="menu">
+        <div class="tap-target-content white-text">
+          <h5>Tap Target Content</h5>
+          <p class="white-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus,
+            eius minima harum, incidunt voluptatibus minus recusandae magnam vel
+            nostrum eaque sit sunt nisi necessitatibus qui in labore iste
+            veritatis. Nostrum.
+          </p>
+        </div>
+      </div>
+
       <!-- container ends -->
     </div>
 
