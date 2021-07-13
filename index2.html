@@ -163,6 +163,34 @@
       <!-- container ends -->
     </div>
 
+    <!-- slider -->
+    <h1>SLIDER</h1>
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="http://lorempixel.com/580/250/nature/1" />
+          <div class="caption center-align">
+            <h3>This our tagline</h3>
+            <h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
+          </div>
+        </li>
+        <li>
+          <img src="http://lorempixel.com/580/250/nature/2" />
+          <div class="caption left-align">
+            <h3>This our tagline</h3>
+            <h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
+          </div>
+        </li>
+        <li>
+          <img src="http://lorempixel.com/580/250/nature/3" />
+          <div class="caption right-align">
+            <h3>This our tagline</h3>
+            <h5 class="light grey-text text-lighten-3">Here is our slogan</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
     <!-- gives us space at the bottom  -->
     <div style="height: 500px"></div>
 
@@ -178,6 +206,7 @@
         $(".carousel").carousel();
         // init carousel slider
         $(".carousel.carousel-slider").carousel({ fullWidth: true });
+        $(".slider").slider();
       });
 
       // fire off toast
