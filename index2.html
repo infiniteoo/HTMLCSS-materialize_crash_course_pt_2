@@ -97,6 +97,14 @@
         </li>
       </ul>
 
+      <!-- toasts -->
+      <h1>TOASTS</h1>
+      <a onclick="Materialize.toast('Post Saved', 4000, 'rounded')" class="btn"
+        >Toast!</a
+      >
+
+      
+
       <!-- container ends -->
     </div>
 
@@ -116,6 +124,9 @@
         // init carousel slider
         $(".carousel.carousel-slider").carousel({ fullWidth: true });
       });
+
+      // fire off toast
+      /* Materialize.toast("Hello World", 3000); */
     </script>
   </body>
 </html>
