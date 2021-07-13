@@ -191,6 +191,38 @@
       </ul>
     </div>
 
+    <!-- modals -->
+    <h1>MODAL</h1>
+
+    <!-- modal triggers -->
+    <a href="#modal1" class="btn waves-effect">Modal 1</a>
+    <a href="#modal2" class="btn waves-effect red">Modal 2</a>
+
+    <!-- modal structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Modal Header</h4>
+        <p>A bunch of text</p>
+      </div>
+      <div class="modal-footer">
+        <a href="" class="modal-action modal-close waves-effect waves-green"
+          >Button</a
+        >
+      </div>
+    </div>
+
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h4>Modal 2 Header</h4>
+        <p>A bunch of text</p>
+      </div>
+      <div class="modal-footer">
+        <a href="" class="modal-action modal-close waves-effect waves-green"
+          >Button</a
+        >
+      </div>
+    </div>
+
     <!-- gives us space at the bottom  -->
     <div style="height: 500px"></div>
 
@@ -206,7 +238,10 @@
         $(".carousel").carousel();
         // init carousel slider
         $(".carousel.carousel-slider").carousel({ fullWidth: true });
+        // init slider
         $(".slider").slider();
+        //init modal
+        $(".modal").modal();
       });
 
       // fire off toast
