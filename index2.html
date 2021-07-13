@@ -223,6 +223,30 @@
       </div>
     </div>
 
+    <!-- sidenavs -->
+    <h1>SIDE NAV</h1>
+    <ul id="slide-out" class="side-nav">
+      <li>
+        <a href="#"><i class="material-icons">cloud</i>Link 1</a>
+      </li>
+      <li>
+        <a href="#">Link 2</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a href="#" class="subheader">Subheader</a>
+      </li>
+      <li>
+        <a href="#" class="waves-effect">Link 3</a>
+      </li>
+    </ul>
+
+    <a href="" data-activates="slide-out" class="button-collapse"
+      ><i class="material-icons">menu</i></a
+    >
+
     <!-- gives us space at the bottom  -->
     <div style="height: 500px"></div>
 
@@ -242,6 +266,8 @@
         $(".slider").slider();
         //init modal
         $(".modal").modal();
+        // init side nav
+        $(".button-collapse").sideNav();
       });
 
       // fire off toast
